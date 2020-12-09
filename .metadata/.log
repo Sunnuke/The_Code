@@ -493,3 +493,57 @@ java.lang.IllegalArgumentException: can not get a buffer without a document refe
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
 	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1559)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:01.442
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:01.443
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2483eb07[org.springframework.tooling.boot.ls:1.23.0.202010230633(id=673)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:01.446
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:01.475
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:02.051
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:02.051
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2483eb07[org.springframework.tooling.boot.ls:1.23.0.202010230633(id=673)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:02.052
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:06.095
+!MESSAGE Boot LS startup time from start to initialized: 4041ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:06.396
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yXoIHoJqisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:06.403
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:06.407
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:06.410
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:06.410
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:06.411
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yXoIHoJq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:06.428
+!MESSAGE classpath=70 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:06.437
+!MESSAGE buffering callback sts4.classpath.yXoIHoJq code false 70
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:06.439
+!MESSAGE executing callback sts4.classpath.yXoIHoJq 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-08 18:06:06.503
+!MESSAGE executing callback sts4.classpath.yXoIHoJq SUCCESS [done]

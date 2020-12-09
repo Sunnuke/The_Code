@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-	<p></p>
+	<p><c:out value="${errors}"/></p>
 	<h2>What is the Code?!</h2>
 	<form action="/check" method="POST">
 	<input name="code" type="text">
