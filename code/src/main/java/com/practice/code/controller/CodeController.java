@@ -17,20 +17,17 @@ public class CodeController {
 	}
 	
 	@RequestMapping(value="/check", method=RequestMethod.POST)
-	public String check(@RequestParam String code, HttpSession session, RedirectAttributes redirect) {
-		if (code != "Breezzy") {
-			redirect.addAttribute("error", "Incorrect! Try Again!!!");
+	public String check(@RequestParam(value="code") String code, RedirectAttributes redirect) {
+		System.out.println(code);
+		if (!"Breezzy".equals(code)) {
+			redirect.addFlashAttribute("error", "Incorrect! Try Again!!!");
 			return "redirect:/";
 		}
-		session.setAttribute("check", code);
 		return "redirect:/code";
 	}
 	
 	@RequestMapping("/code")
 	public String success(HttpSession session) {
-		if (session.getAttribute("check") != "Breezzy") {
-			return "redirect:/check";
-		}
 		return "success.jsp";
 	}
 }
